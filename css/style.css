@@ -1,0 +1,140 @@
+/* frame work */
+h1{
+  font-family: 'Sacramento', cursive;
+
+}
+h2,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  color: #66BFBF;
+  font-weight: bold;
+  font-size: 2.5rem;
+  // default size=> 16px=1em=100% so, 32px=2em=200%
+  //40px => 40/16=2.5em=250%
+  // em inherunt from its parent
+  // use rem to cancel this inherunt
+
+}
+h3{
+  color: #11999E;
+  font-weight: bold;
+}
+hr{
+  border: none;
+  border-style: dotted;
+  border-top: 5px;
+  background-color: #fff;
+  width: 5%;
+  margin: 50px auto;
+}
+/* end frame work*/
+
+body{
+  background-color: #FFF;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+/* start top-container */
+
+div.top-container{
+  background-color: #e8ffff;
+  text-align: center;
+  position: relative; /*for absolute position the photos*/
+  padding-top: 100px;
+}
+
+div img.top-cloud{
+  position: absolute;/*from top-container*/
+  right: 300px;
+  top: 50px;
+}
+
+div.top-container h1{
+  margin-top: 100px;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  /* 90px=5.625rem=562.5%
+   px static value
+   em,rem,% => dynamic [use them]*/
+}
+
+div img.down-cloud{
+  position: absolute;/*from top-container*/
+  left: 300px;
+  bottom: 300px;
+}
+
+/* end top-container */
+
+/* start middle-container */
+
+.profile img{
+  margin-top: 100px;
+}
+
+.profile img,.skill-row img{
+  border-radius: 100%;
+  width: 25%;
+}
+
+/* skill */
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer{
+  float: left;
+  margin-right: 30px;
+}
+
+.machine{
+  float: right;
+  margin-left: 30px;
+}
+
+/* start contact me */
+.contact-me{
+  margin-bottom: 70px;
+}
+.contact-me p{
+  margin-bottom: 60px;
+}
+a.btn{
+   color: #FFF;
+   background-color: #66BFBF;
+   border-radius: 3%;
+   text-align: center;
+   text-decoration: none;
+   padding: 10px;
+   font-weight: bold;
+ }
+a.btn:hover{
+    color: #66BFBF;
+    background-color: #FFF;
+    border: 1px solid #66BFBF;
+  }
+/* end contact me*/
+
+/* start footer*/
+
+.bottom-container{
+  padding: 40px;
+  background-color: #66BFBF;
+}
+.footer-link{
+  text-decoration: none;
+  color: #000;
+}
+.footer-link:hover{
+  color: #FFF;
+}
+.bottom-container  p{
+  margin-top: 30px;
+}
+/* end footer */
